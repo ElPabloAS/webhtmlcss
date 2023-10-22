@@ -59,7 +59,7 @@
 
 
         </header>
-        <main class="shadow bg-grey-o">
+        <main class="shadow bg-grey-o clearfix">
             <div class="px-3">
                 <h1 class="text-center bg-base text-white py-3 rounded-corners">HTML5 & CSS3</h1>
             </div>
@@ -69,7 +69,10 @@
             <div id="parrafos" class="py-3">
                 <h2 class="text-center">FORMULARIOS</h2>
             </div>
-            <form action="pagina.php" method="get" class="p-3 form-login">
+
+
+   
+            <form action="pagina.php" method="get" class="form-login">
                 <h3>Formulario de Login</h3>
                 <fieldset class="bg-grey">
                     <legend class="text-black">
@@ -79,127 +82,130 @@
                     <p>Contraseña: <input type="password" name="clave"></p>
                     <p><input type="submit" value="Login" class="btn btn-blue"></p>
                 </fieldset>
-
-                <form action="pagina.php" method="get" class="form-registro">
-                    <h3>Formulario registro</h3>
-                    <fieldset class="bg-grey text-black">
-                        <legend class="text-black">
-                            Registro
-                        </legend>
-                        <p><label for="" class="text-black">input type text</label>
-                            <input type="text" name="nombre" id="" placeholder="Name">
-                        </p>
-                        <p><label for="" class="text-black">input type password</label>
-                            <input type="password" name="clave" id="" placeholder="Password">
-                        </p>
-                        <p>Fecha Nacimiento: (Lista simple -&gt; tag select)
-                            <select name="dia" id="" class="text-black">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                                <option value="13">13</option>
-                                <option value="14">14</option>
-                                <option value="15">15</option>
-                                <option value="16">16</option>
-                                <option value="17">17</option>
-                                <option value="18">18</option>
-                                <option value="19">19</option>
-                                <option value="20">20</option>
-                                <option value="21">21</option>
-                                <option value="22">22</option>
-                                <option value="23">23</option>
-                                <option value="24">24</option>
-                                <option value="25">25</option>
-                                <option value="26">26</option>
-                                <option value="27">27</option>
-                                <option value="28">28</option>
-                                <option value="29">29</option>
-                                <option value="30">30</option>
-                                <option value="31">31</option>
-                            </select>
-                            <select name="mes" id="" class="text-black">
-                                <option value="enero">Enero</option>
-                                <option value="febrero">Febrero</option>
-                                <option value="marzo">Marzo</option>
-                                <option value="abril">Abril</option>
-                                <option value="mayo">mayo</option>
-                                <option value="junio">Junio</option>
-                                <option value="julio">Julio</option>
-                                <option value="agosto">Agosto</option>
-                                <option value="septiembre">Septiembre</option>
-                                <option value="octubre">Octubre</option>
-                                <option value="nobiembre">Noviembre</option>
-                                <option value="diciembre">Diciembre</option>
-                            </select>
-                            <select name="anio" id="" class="text-black">
-                                <option value="1997">1997</option>
-                                <option value="1998">1998</option>
-                                <option value="1999">1999</option>
-                                <option value="2000">2000</option>
-                                <option value="2001">2001</option>
-                                <option value="2002">2002</option>
-                                <option value="2003">2003</option>
-                                <option value="2004">2004</option>
-                                <option value="2005">2005</option>
-                                <option value="2006">2006</option>
-                            </select>
-                        </p><p>Comentarios (tag textarea):<br><textarea name="comentarios" id="" cols="50" rows="4"></textarea></p>
-                        <p>Aficiones: (tag input type checkbox)<br>
-                            <input type="checkbox" name="cine" id=""> Cine <br>
-                            <input type="checkbox" name="deportes" id=""> Deportes <br>
-                            <input type="checkbox" name="lectura" id=""> Lectura <br>
-                            <input type="checkbox" name="viajar" id=""> Viajar <br>
-                        </p>
-                        <p>Estado civil: (tag input type radio)</p>
-                        <input type="radio" name="ec" id=""> Casado/a <br>
-                        <input type="radio" name="ec" id=""> Soltero/a <br>
-                        <input type="radio" name="ec" id=""> Viudo/a <br>
-                        <input type="radio" name="ec" id=""> Otros <br>
-                        <p></p>
-                        <p>Provincia: (tag select multiple)<br></p>
-                        <select name="provincia" id="" multiple="" size="5">
-                            <option value="1" class="text-black">Albacete</option>
-                            <option value="1" class="text-black">Ciudad Real</option>
-                            <option value="3" class="text-black">Cuenca</option>
-                            <option value="1" class="text-black">Guadalajara</option>
-                            <option value="1" class="text-black">Toledo</option>
-                        </select>
-                        <p>Foto: (tag input type file) <input type="file" name="foto" id=""></p>
-                        <p><input type="submit" value="Enviar" class="btn btn-blue"></p>
-                    </fieldset>
-                </form>
+            </form>
 
 
-                <div class="cb"></div>
-                <h3 class="text-center">FORMULARIO CON ELEMENTOS HTML5</h3>
                 
+            <form action="pagina.php" method="get" class="form-registro">
+                <h3>Formulario registro</h3>
+                <fieldset class="bg-grey text-black">
+                    <legend class="text-black">
+                          Registro
+                     </legend>
+                    <p><label for="" class="text-black">input type text</label>
+                        <input type="text" name="nombre" id="" placeholder="Name">
+                    </p>
+                    <p><label for="" class="text-black">input type password</label>
+                        <input type="password" name="clave" id="" placeholder="Password">
+                    </p>
+                    <p>Fecha Nacimiento: (Lista simple -&gt; tag select)
+                        <select name="dia" id="" class="text-black">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <select name="mes" id="" class="text-black">
+                            <option value="enero">Enero</option>
+                            <option value="febrero">Febrero</option>
+                            <option value="marzo">Marzo</option>
+                            <option value="abril">Abril</option>
+                            <option value="mayo">mayo</option>
+                            <option value="junio">Junio</option>
+                            <option value="julio">Julio</option>
+                            <option value="agosto">Agosto</option>
+                            <option value="septiembre">Septiembre</option>
+                            <option value="octubre">Octubre</option>
+                            <option value="nobiembre">Noviembre</option>
+                            <option value="diciembre">Diciembre</option>
+                        </select>
+                        <select name="anio" id="" class="text-black">
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                        </select>
+                    </p><p>Comentarios (tag textarea):<br><textarea name="comentarios" id="" cols="50" rows="4"></textarea></p>
+                    <p>Aficiones: (tag input type checkbox)<br>
+                        <input type="checkbox" name="cine" id=""> Cine <br>
+                        <input type="checkbox" name="deportes" id=""> Deportes <br>
+                        <input type="checkbox" name="lectura" id=""> Lectura <br>
+                        <input type="checkbox" name="viajar" id=""> Viajar <br>
+                    </p>
+                    <p>Estado civil: (tag input type radio)</p>
+                    <input type="radio" name="ec" id=""> Casado/a <br>
+                    <input type="radio" name="ec" id=""> Soltero/a <br>
+                    <input type="radio" name="ec" id=""> Viudo/a <br>
+                    <input type="radio" name="ec" id=""> Otros <br>
+                    <p></p>
+                    <p>Provincia: (tag select multiple)<br></p>
+                    <select name="provincia" id="" multiple="" size="5">
+                        <option value="1" class="text-black">Albacete</option>
+                        <option value="1" class="text-black">Ciudad Real</option>
+                        <option value="3" class="text-black">Cuenca</option>
+                        <option value="1" class="text-black">Guadalajara</option>
+                        <option value="1" class="text-black">Toledo</option>
+                    </select>
+                    <p>Foto: (tag input type file) <input type="file" name="foto" id=""></p>
+                    <p><input type="submit" value="Enviar" class="btn btn-blue"></p>
+                </fieldset>
+            </form>
 
-                <form action="pagina.php" method="post" class="form-html5 p-3">
-                    <fieldset>
-                        <legend>Inputs HTML5</legend>
-                        <p><label for="">Color:</label> <input type="color" name="color" id="" class="text-black"></p>
-                        <p><label for="">Date:</label> <input type="date" name="date" id="" class="text-black"></p>
-                        <p><label for="">Datetime:</label> <input type="datetime" name="datetime" id="" class="text-black"></p>
-                        <p><label for="">Datetime-local:</label> <input type="datetime-local" name="datetime-local" id="" class="text-black"></p>
-                        <p><label for="">Email:</label> <input type="email" name="email" id="" class="text-black"></p>
-                        <p><label for="">Month:</label> <input type="month" name="month" id="" class="text-black"></p>
-                        <p><label for="">Number:</label> <input type="number" name="number" id="" step="2" min="10" max="30" class="text-black"></p>
-                        <p><label for="">Range:</label> <input type="range" name="range" id="" step="2" min="10" max="30" class="text-black"></p>
-                        <p><label for="">Tel:</label> <input type="tel" name="tel" id=""class="text-black"></p>
-                        <p><label for="">Time:</label> <input type="time" name="time" id="" class="text-black"></p>
-                        <p><label for="">Url:</label> <input type="url" name="url" id="" class="text-black"></p>
-                        <p><label for="">Week:</label> <input type="week" name="week" id="" class="text-black"></p>
-                        <p><input type="submit" value="Aceptar" id="" class="btn btn-red" class="text-black"></p>
-                    </fieldset>
+
+
+            <div class="cb"></div>
+            <h3 class="text-center">FORMULARIO CON ELEMENTOS HTML5</h3>
+                
+             <form action="pagina.php" method="post" class="form-html5 p-3">
+                <fieldset>
+                    <legend>Inputs HTML5</legend>
+                    <p><label for="">Color:</label> <input type="color" name="color" id="" class="text-black"></p>
+                    <p><label for="">Date:</label> <input type="date" name="date" id="" class="text-black"></p>
+                    <p><label for="">Datetime:</label> <input type="datetime" name="datetime" id="" class="text-black"></p>
+                    <p><label for="">Datetime-local:</label> <input type="datetime-local" name="datetime-local" id="" class="text-black"></p>
+                    <p><label for="">Email:</label> <input type="email" name="email" id="" class="text-black"></p>
+                    <p><label for="">Month:</label> <input type="month" name="month" id="" class="text-black"></p>
+                    <p><label for="">Number:</label> <input type="number" name="number" id="" step="2" min="10" max="30" class="text-black"></p>
+                    <p><label for="">Range:</label> <input type="range" name="range" id="" step="2" min="10" max="30" class="text-black"></p>
+                    <p><label for="">Tel:</label> <input type="tel" name="tel" id=""class="text-black"></p>
+                    <p><label for="">Time:</label> <input type="time" name="time" id="" class="text-black"></p>
+                    <p><label for="">Url:</label> <input type="url" name="url" id="" class="text-black"></p>
+                    <p><label for="">Week:</label> <input type="week" name="week" id="" class="text-black"></p>
+                    <p><input type="submit" value="Aceptar" id="" class="btn btn-red" class="text-black"></p>
+                </fieldset>
                 </form>
                 
 

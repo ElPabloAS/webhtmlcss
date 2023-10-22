@@ -432,15 +432,20 @@ table.horario td{
 fieldset p{
     color: black;
 }
-form.form-login fieldset{
-    width: 30%;
+form.form-login {
     float: left;
+    width: 50%;
+    padding: 40px;
 }
-form.form-registro{
+form.form-registro {
     float: right;
-    width: 70%;
-    padding: 100%;
+    width: 50%;
+    padding: 40px;
 }
+
+/*form.form-login fieldset, form.form-registro fieldset {
+    padding: 20px;
+}*/
 form.form-html5 {
     width: 40%;
     margin: 0 auto;
@@ -476,4 +481,7 @@ form.form-html5 label {
 .btn-blue {
     background-color: rgb(65, 215, 185);
     color: white;
+}
+.mar-auto{
+    margin: 0 20%;
 }
