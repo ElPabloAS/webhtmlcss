@@ -14,6 +14,10 @@ body > div > main {
 header{
     background-color: rgb(134, 134, 134);
 }
+.rounded-corners {
+    border-radius: 10px;
+}
+
 /* For desktop: */
 .container {
     width: 90%;
@@ -443,7 +447,7 @@ form.form-html5 {
 
 form.form-html5 fieldset {
     padding: 0 30px;
-    background-color: #e2e9fa;
+    background-color: rgb(65, 215, 185);
 }
 form.form-html5 legend {
     background-color: rgb(238, 214, 75);
@@ -452,7 +456,7 @@ form.form-html5 legend {
     font-size: 20px;
 }
 form.form-html5 label {
-    background-color: rgb(102, 72, 207);
+    background-color: rgb(65, 6, 6);
     color: white;
 }
 .cb {
@@ -465,10 +469,10 @@ form.form-html5 label {
     font-size: 15px;
 }
 .btn-red {
-    background-color: rgb(78, 6, 6);
+    background-color: rgb(65, 6, 6);
     color: white;
 }
 .btn-blue {
-    background-color: rgb(22, 3, 68);
+    background-color: rgb(65, 215, 185);
     color: white;
 }
