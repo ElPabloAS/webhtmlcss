@@ -1,0 +1,473 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(36, 36, 36);
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+body > div > main {
+    border-radius: 0 !important;
+}
+header{
+    background-color: rgb(134, 134, 134);
+}
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px rgb(134, 134, 134);
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    //color: rgb(18, 0, 110);
+    color: rgb(255, 205, 53);
+}
+
+nav li:hover {
+    background-color: rgba(255, 187, 0, 0.494);
+}
+
+.hv-orange-o:hover{
+    background-color: orangered;
+    font-family: Arial;
+}
+.hv-orange:hover{
+    background-color: orange;
+    font-family: Arial;
+}
+.hv-yellow:hover{
+    background-color: yellow;
+    font-family: Arial;
+}
+.hv-green-c:hover{
+    background-color: yellowgreen;
+    font-family: Arial;
+}
+.hv-green:hover{
+    background-color: green;
+    font-family: Arial;
+}
+.hv-blue:hover{
+    background-color: rgb(0, 157, 222);
+    font-family: Arial;
+}
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+
+
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.bg-red{
+    background-color: red;
+}
+.bg-azul-o {
+    background-color: rgb(0 157 222);
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-orange-c {
+    background-color: orange;
+}
+.bg-orange{
+    background-color: orangered;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-green-c {
+    background-color: yellowgreen;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-violet{
+    background-color: violet;
+}
+.bg-base{
+    background-color: rgb(255, 205, 53);
+}
+.bg-white{
+    background-color: white;
+}
+.bg-grey{
+    background-color: rgb(102, 102, 102);
+}
+.bg-grey-o{
+    background-color: rgb(134, 134, 134);
+}
+
+
+
+.text-white {
+    color: white;
+}
+.text-red {
+    color: red;
+}
+.text-blue-c{
+    color: rgb(0, 157, 222);
+}
+.text-blue-o{
+    color: blue;
+}
+.text-orange-c{
+    color: orange;
+}
+.text-orange{
+    color: orangered;
+}
+.text-yellow{
+    color: yellow;
+}
+.text-green-c{
+    color: yellowgreen;
+}
+.text-green{
+    color: green;
+}
+.text-violet{
+    color: violet;
+}
+.text-black{
+    color: black;
+}
+
+
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+h2{
+   
+}
+h3{
+    background-color:;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+.text-sub{
+    text-decoration: underline;
+}
+.text-i{
+    font-style: italic;
+}
+.text-25p{
+    font-size: 25px;
+}
+.text-n{
+    font-weight: 100;
+}
+
+#listaoc ol {
+    list-style-type: upper-alpha;
+}
+#listaoc ol ol {
+    list-style-type: upper-roman;
+}
+#listaotc ol {
+    list-style-type: lower-alpha;
+}
+#listaotc ol ol {
+    list-style-type: lower-roman;
+}
+#listaotc ol ol ol {
+    list-style-type: upper-roman;
+}
+#listadtc ul ul {
+    list-style-image: url(../img/alien-1294345_640-fotor-2023100495650.png);
+}
+#listadtc ul ul ul{
+    list-style-image: none;
+    list-style-type: square;
+}
+table{
+    border-color: white;
+}
+dt {
+    font-size: 20px;
+    background-color: rgb(78, 207, 246);
+    color: rgb(253, 67, 67);
+    display: inline;
+}
+dd {
+    padding: 10px 0;
+}
+table.tstriped tr:nth-child(odd) {
+    background-color: rgb(127, 206, 255);
+}
+table.tstriped tr:nth-child(even) {
+    background-color: rgb(254, 185, 112);
+}
+table.tcenter {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(136, 224, 182);
+}
+table.tcenter th {
+    background-color: rgb(139, 9, 52);
+    color: rgb(255, 187, 204);
+    font-size: 30px;
+    padding: 5px;
+}
+table.tcenter td {
+    padding: 6px;
+}
+body table.horario{
+    background-color: white;
+    border-color: black;
+    width: 70%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body table.horario th{
+    color:  #1e897f ;
+}
+table.titulo th{
+    padding: 0px 0px;
+}
+table.horario td{
+    padding: 20px 15px;
+}
+.colum {
+    width: 50px;
+}
+.recreo{
+    height: 0.05px;
+}
+.lm{
+    background-color: #fbd435 ;
+    color: black;
+}
+.sisi{
+    background-color: #b4b364 ;
+    color: black;
+}
+.ende{
+    background-color: #29c7ca ;
+    color: black;
+}
+.fol{
+    background-color: #f3f3cb ;
+    color: black;
+}
+.prog{
+    background-color:  #bb7c7b;
+    color: black;
+}
+.ing{
+    background-color:   #fba464 ;
+    color: black;
+}
+.bdd{
+    background-color: #fbcccb ;
+    color: black;
+}
+.cb{
+    clear: both;
+}
+fieldset p{
+    color: black;
+}
+form.form-login fieldset{
+    width: 30%;
+    float: left;
+}
+form.form-registro{
+    float: right;
+    padding: 100%;
+}
+form.form-html5 {
+    width: 40%;
+    margin: 0 auto;
+}
+
+form.form-html5 fieldset {
+    padding: 0 30px;
+    background-color: #e2e9fa;
+}
+form.form-html5 legend {
+    background-color: rgb(238, 214, 75);
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+form.form-html5 label {
+    background-color: rgb(102, 72, 207);
+    color: white;
+}
+.cb {
+    clear: both;
+}
+.btn {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.btn-red {
+    background-color: rgb(78, 6, 6);
+    color: white;
+}
+.btn-blue {
+    background-color: rgb(22, 3, 68);
+    color: white;
+}

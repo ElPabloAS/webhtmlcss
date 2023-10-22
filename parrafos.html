@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow bg-grey-o">
+            <div class="px-3">
+                <h1 class="text-center bg-base text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div id="parrafos" class="p-3">
+                <h2 class="text-center">PÁRRAFOS</h2>
+
+                <p>Esto es la etiqueta de parrafo</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sequi possimus rerum architecto,
+                    quas nisi magni. Voluptatem, aperiam! Fuga eaque ratione libero. Veniam consequuntur totam officiis
+                    pariatur ducimus quo dolor.</p>
+
+                <p>Si queremos hacer un salto de linea usamos usamos br <br> Esto es abajo porque hemos puesto un salto
+                    br</p>
+
+                <p>Para los encabezados usamos h1-h6</p>
+                
+                <h1 class="hv-orange-o">Esto es H1</h1>
+                <h2 class="hv-orange">Esto es H2</h2>
+                <h3 class="hv-yellow">Esto es H3</h3>
+                <h4 class="hv-green-c">Esto es H4</h4>
+                <h5 class="hv-green">Esto es H5</h5>
+                <h6 class="hv-blue">Esto es H6</h6>
+
+                <p>Para poner palabras en negrita usamos la etiqueta strong<strong> Aqui tienes el ejemplo de palabras en negrita</strong></p>
+                
+                <p>Para usar palabras en cursiva o italic usamos la etiqueta em <em>Aqui tienes el ejemplo de em</em></p>
+
+                <p>Para operaciones matematias tenemos subindice y supindice y para eso usaremos las etiquetas sub y sup</p>
+
+                <p>10 <sub>2-x</sub> + 50 <sup>y+4</sup></p>
+                
+                <p>Si queremos dar formato a alguna  frase o palabras sueltas usaremos span. En esta frase usare span <span class="text-red bg-green-c">para poner la frase entera</span> de un formato dado en css</p>
+
+                <div class="bg-violet">Caja 1</div>
+                <div class="bg-green">Caja 2</div>
+
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-base text-center text-white py-3">&copy; Pablo Alvaro</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

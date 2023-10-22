@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow bg-grey-o">
+            <div class="px-3">
+                <h1 class="text-center bg-base text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div id="parrafos" class="p-3">
+                <h2 class="text-center">ENALCES</h2>
+                <p>Los enlaces, link, hipervinculos, como querais llamar se hacen con la etiqueta a </p>
+                <h1 class="text-center">Tipos de enlace:</h1>
+
+                <h4>Enlace a una pagina nuestra</h4>
+                <p><a href="enlaces.html">ir a Home</a></p>
+
+                <h4>Enlace a google</h4>
+                <p><a href="https://www.google.es">ir a Google</a></p>
+
+                <h4>Enlace a una pagina en una ventana aparte</h4>
+                <p><a href="https://www.toledo.es" target="_blank">ir a Toledo</a></p>
+
+                <h4>Enlace a un programa de javascrip</h4>
+                <p><a href="javascript:alert('Que tal colegas!')">Pulsa....</a></p>
+                
+                <h4>Enlace a un email</h4>
+                <p><a href="mailto:webmaster@iez-azarquiel.es">mandar correo</a></p>
+
+                <h4>Enlace en una foto</h4>
+                <p class="text-center"><a href="https://www.facebook.com/?locale=es_ES"><img src="img/fe31f71c846ba4d22ee9f09ccd5c6d08.jpg" alt="logo facebook" width="80"></a></p>
+
+
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-base text-center text-white py-3">&copy; Pablo Alvaro</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
