@@ -390,8 +390,9 @@ table.horario td{
 .colum {
     width: 50px;
 }
-.recreo{
+.recreo !important{
     height: 0.05px;
+    color: black;
 }
 .lm{
     background-color: #fbd435 ;
