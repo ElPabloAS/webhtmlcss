@@ -438,6 +438,7 @@ form.form-login fieldset{
 }
 form.form-registro{
     float: right;
+    width: 70%;
     padding: 100%;
 }
 form.form-html5 {
@@ -450,7 +451,7 @@ form.form-html5 fieldset {
     background-color: rgb(65, 215, 185);
 }
 form.form-html5 legend {
-    background-color: rgb(238, 214, 75);
+    background-color: rgb(255, 205, 53);
     color: white;
     padding: 8px;
     font-size: 20px;
